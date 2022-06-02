@@ -25,6 +25,7 @@
                 <e p="ExampleState.cs" t="Include" />
                 <e p="FlowerEarnedState.cs" t="Include" />
                 <e p="IdleState.cs" t="Include" />
+                <e p="MovState.cs" t="Include" />
               </e>
               <e p="Vector2Extension.cs" t="Include" />
             </e>
@@ -75,6 +76,9 @@
               </e>
             </e>
           </e>
+          <e p="3. UI Layout" t="Include">
+            <e p="UIResChanger.cs" t="Include" />
+          </e>
           <e p="4. Gizmos" t="Include">
             <e p="Scripts" t="Include">
               <e p="BezierCurve.cs" t="Include" />
@@ -97,6 +101,8 @@
           </e>
           <e p="6. Rolling Cube Animation" t="Include">
             <e p="ChallengeExplanation.txt" t="Include" />
+            <e p="DiceRolling.cs" t="Include" />
+            <e p="HierarchyRecorder.cs" t="Include" />
           </e>
           <e p="7. AutomataStateMachine" t="Include">
             <e p="Editor" t="Include">

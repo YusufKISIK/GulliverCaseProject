@@ -1,5 +1,6 @@
 ﻿using System;
 using Challenges._1._GGStateMachineCharacterPhysics.Scripts.States;
+using Cysharp.Threading.Tasks;
 using GGPlugins.GGStateMachine.Scripts.Abstract;
 using GGPlugins.GGStateMachine.Scripts.Data;
 using GGPlugins.GGStateMachine.Scripts.Installers;
@@ -94,14 +95,21 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
             //We don't want the machine to leave a state and re-enter it.
             _stateMachine.SetSettings(new StateMachineSettings(true));
             _stateMachine.RegisterUniqueState(new FlowerEarnedState(transform, headTransform));
-            _stateMachine.RegisterUniqueState(new IdleState());
+            _stateMachine.RegisterUniqueState(new IdleState(transform));
+            _stateMachine.RegisterUniqueState(new MovState(transform));
         }
 
         #region EDIT
         // You should only need to edit in this region, you can add any variables you wish.
         
+        private bool _isGrounded;
+        private Vector3 _velocity;
+        private float gravity;
 
-       
+        [SerializeField]
+        private LayerMask _rayLayer;
+        private Vector3 _rayPoint;
+        
         //Add your states under this function
         private void SetupStateMachineStates()
         {
@@ -128,9 +136,56 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
         // (W and S) -> (0,0) ;
         // (A and S) -> (-1,-1) ;
         // (A) -> (-1,0)
-        public void SetCurrentMovement(Vector2 xzPlaneMovementVector)
+
+         public void SetCurrentMovement(Vector2 xzPlaneMovementVector)
         {
-            
+            xzPlaneMovementVector *= characterMovementConfig.MAXSpeed;
+            _velocity = new Vector3(xzPlaneMovementVector.x, 0, xzPlaneMovementVector.y) ;
+            transform.position += _velocity * Time.deltaTime;
+
+           
+            Grounded();
+            Grav();
+            ControlStates();
+        }
+       
+         private async UniTaskVoid Grounded()
+         {
+             Ray ray = new Ray(transform.TransformPoint(_rayPoint), Vector3.down);
+             RaycastHit hit;
+
+             if (Physics.SphereCast(ray, characterMovementConfig.CharacterRadius * 0.5f, out hit, 5f, _rayLayer))
+             {
+                 _isGrounded = true;
+
+                 Vector3 nextPosition = new Vector3(transform.position.x, hit.point.y, transform.position.z);
+                 transform.position = Vector3.Lerp(transform.position, nextPosition, characterMovementConfig.Gravity * Time.deltaTime);
+
+                 return;
+             }
+
+             _isGrounded = false;
+         }
+
+         private async UniTaskVoid Grav()
+         {
+             if (_isGrounded)
+                 gravity = 0;
+             else
+                 gravity = characterMovementConfig.Gravity;
+         }
+        private async UniTaskVoid ControlStates()
+        {
+            if (_velocity == Vector3.zero)
+            {
+                if (_stateMachine.CheckCurrentState<IdleState>()) return;
+                _stateMachine.SwitchToState<IdleState>();
+            }
+            else
+            {
+                if (_stateMachine.CheckCurrentState<MovState>()) return;
+                _stateMachine.SwitchToState<MovState>();
+            }
         }
         
         #endregion

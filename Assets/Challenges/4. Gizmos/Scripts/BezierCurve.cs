@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEditor;
+using UnityEngine;
 
 namespace Challenges._5._Gizmos.Scripts
 {
@@ -14,9 +16,14 @@ namespace Challenges._5._Gizmos.Scripts
         private Transform handle2;
         //Edit below
 
+        
+        [SerializeField]
+        private Texture2D _texture;
+
         private void OnDrawGizmos()
         {
-            
+            Handles.DrawBezier(point1.position, point2.position, handle1.position, handle2.position, Color.red,
+                _texture, 0.1f);
         }
     }
 }

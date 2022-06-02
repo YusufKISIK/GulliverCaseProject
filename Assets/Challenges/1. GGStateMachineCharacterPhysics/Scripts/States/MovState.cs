@@ -9,14 +9,14 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.States
     /// <summary>
     /// You can edit this
     /// </summary>
-    public class IdleState : GGStateBase
+    public class MovState : GGStateBase
     {
         private Transform charTransform;
 
-        private const float ScaleFac = 1.1f;
-        private const float ScaleTime = 2f;
+        private const float ScaleFac = 1.25f;
+        private const float ScaleTime = 1f;
         
-        public IdleState(Transform characterTransform)
+        public MovState(Transform characterTransform)
         {
             charTransform = characterTransform;
         }
