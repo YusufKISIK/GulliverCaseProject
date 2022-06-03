@@ -43,6 +43,8 @@ namespace Challenges._2._ModifiedSnake.Scripts.Systems
             Loop();
         }
 
+      
+
         private async UniTask Loop()
         {
             while (true)

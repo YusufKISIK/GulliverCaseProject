@@ -4,6 +4,8 @@ namespace Challenges._2._ModifiedSnake.Scripts.Data
     {
         None,
         Food,
+        Tunel,
+        TunelEnd,
         SnakeBlock
     }
     

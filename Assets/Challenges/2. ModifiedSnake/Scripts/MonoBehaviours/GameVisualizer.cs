@@ -14,7 +14,7 @@ namespace Challenges._2._ModifiedSnake.Scripts.MonoBehaviours
         [Inject]
         private IMap _map;
 
-
+        
         private Transform Spawn()
         {
             var ins = Instantiate(mapLinePrefab, transform);

@@ -14,6 +14,8 @@ namespace Challenges._2._ModifiedSnake.Scripts.Installers
         public SnakeBlock snakeBlockPrefab;
         public SnakeHeadBlock snakeHeadBlockPrefab;
         public FoodBlock foodPrefab;
+        public Tunel tunelBlock;
+        public TunelEnd tunelEndBlock;
         public SnakeGameData snakeGameData;
         public override void InstallBindings()
         {
@@ -38,6 +40,7 @@ namespace Challenges._2._ModifiedSnake.Scripts.Installers
             Container.BindInterfacesTo<GameManager>().AsSingle().NonLazy();
             Container.BindInterfacesTo<InputManager>().AsSingle().NonLazy();
             Container.BindInterfacesTo<FoodGenerator>().AsSingle().NonLazy();
+            Container.BindInterfacesTo<TunelGenerator>().AsSingle().NonLazy();
             Container.BindInterfacesTo<OccupancyHandler>().AsSingle().NonLazy();
             Container.BindInterfacesTo<SnakeBodyController>().AsSingle().NonLazy();
             Container.BindInterfacesTo<SnakeMovementController>().AsSingle().NonLazy();
@@ -58,6 +61,8 @@ namespace Challenges._2._ModifiedSnake.Scripts.Installers
             //The following are Zenject's own pools. They will handle all the work of pooling (and injecting into the elements in the pool)
             Container.BindMemoryPool<SnakeBlock, SnakeBlock.SnakeBlockPool>().WithInitialSize(snakeGameData.startLength).FromComponentInNewPrefab(snakeBlockPrefab).UnderTransformGroup("SnakeBlocks").NonLazy();
             Container.BindMemoryPool<FoodBlock, FoodBlock.FoodBlockPool>().FromComponentInNewPrefab(foodPrefab).UnderTransformGroup("FoodBlocks").NonLazy();
+            Container.BindMemoryPool<Tunel, Tunel.TunelBlockPull>().FromComponentInNewPrefab(tunelBlock).UnderTransformGroup("TunelBlock").NonLazy();
+            Container.BindMemoryPool<TunelEnd, TunelEnd.TunelEndBlockPull>().FromComponentInNewPrefab(tunelEndBlock).UnderTransformGroup("TunelEnd").NonLazy();
             #endregion
         }
     }

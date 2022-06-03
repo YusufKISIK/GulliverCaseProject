@@ -23,7 +23,7 @@ namespace Challenges._5._Gizmos.Scripts
         private void OnDrawGizmos()
         {
             Handles.DrawBezier(point1.position, point2.position, handle1.position, handle2.position, Color.red,
-                _texture, 0.1f);
+                _texture, 10f);
         }
     }
 }

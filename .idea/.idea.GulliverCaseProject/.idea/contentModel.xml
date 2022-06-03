@@ -43,11 +43,14 @@
                 <e p="IOccupancyHandler.cs" t="Include" />
                 <e p="ISnakeBodyController.cs" t="Include" />
                 <e p="ISnakeMovementListener.cs" t="Include" />
+                <e p="ITunelGenerator.cs" t="Include" />
               </e>
               <e p="Blocks" t="Include">
                 <e p="FoodBlock.cs" t="Include" />
                 <e p="SnakeBlock.cs" t="Include" />
                 <e p="SnakeHeadBlock.cs" t="Include" />
+                <e p="Tunel.cs" t="Include" />
+                <e p="TunelEnd.cs" t="Include" />
               </e>
               <e p="Data" t="Include">
                 <e p="Enums.cs" t="Include" />
@@ -73,6 +76,7 @@
                 <e p="OccupancyHandler.cs" t="Include" />
                 <e p="SnakeBodyController.cs" t="Include" />
                 <e p="SnakeMovementController.cs" t="Include" />
+                <e p="TunelGenerator.cs" t="Include" />
               </e>
             </e>
           </e>
@@ -101,8 +105,6 @@
           </e>
           <e p="6. Rolling Cube Animation" t="Include">
             <e p="ChallengeExplanation.txt" t="Include" />
-            <e p="DiceRolling.cs" t="Include" />
-            <e p="HierarchyRecorder.cs" t="Include" />
           </e>
           <e p="7. AutomataStateMachine" t="Include">
             <e p="Editor" t="Include">

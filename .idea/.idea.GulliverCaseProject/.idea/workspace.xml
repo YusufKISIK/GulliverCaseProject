@@ -22,20 +22,14 @@
     <list default="true" id="2966cff8-4390-443b-a0b1-88682f6bd73a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/States/IdleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/States/IdleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/StateMachineAnimatorScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/StateMachineAnimatorScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/ModifiedSnakeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/ModifiedSnakeScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Data/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Data/Enums.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/FoodGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/FoodGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/SnakeGameData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/SnakeGameData.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UILayoutScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UILayoutScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/GizmosScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/GizmosScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/Node.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/Node.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/AbstractDOTweenScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/AbstractDOTweenScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/Scripts/PickUpAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/Scripts/PickUpAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/Rolling Cube Animation.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/Rolling Cube Animation.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DeviceSimulatorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DeviceSimulatorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +40,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/f3/dc4606e4/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UIResChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D672EF0D-95B2-4490-89B8-789A939DFAD2/ba/8fe2facd/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/af/c85b676d/Gizmos.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/62/0208ac2c/TweenSettingsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/Tunel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/TunelEnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/States/MovState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D672EF0D-95B2-4490-89B8-789A939DFAD2/3e/f0c413f7/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C84609C9-21CB-4884-81D7-D8A5FCDF9588/5c/c879db27/Handles.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/67/29e5aae4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/HierarchyRecorder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/Node.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" />
@@ -69,6 +65,17 @@
         <option value="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/Scripts/PickUpAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/DiceRolling.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/HierarchyRecorder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/FoodGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Abstract/ITunelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/Tunel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Data/Enums.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/TunelEnd.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +124,8 @@
       <workItem from="1654024549437" duration="9083000" />
       <workItem from="1654036141035" duration="3472000" />
       <workItem from="1654085079398" duration="3681000" />
-      <workItem from="1654164032722" duration="825000" />
+      <workItem from="1654164032722" duration="2923000" />
+      <workItem from="1654275694479" duration="15441000" />
     </task>
     <servers />
   </component>
@@ -142,9 +150,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1118" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1654085416495">
+    <state x="721" y="241" key="RiderGenerateDialog" timestamp="1654279217388">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="1118" y="240" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654085416495" />
+    <state x="721" y="241" key="RiderGenerateDialog/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654279217388" />
+    <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog" timestamp="1654289864238">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="154" y="92" width="1674" height="896" key="VCS.FileHistoryDialog/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654289864238" />
+    <state x="2505" y="-13" width="789" height="1067" maximized="true" key="dock-window-1" timestamp="1654281134210">
+      <screen x="1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="2505" y="-13" width="789" height="1067" maximized="true" key="dock-window-1/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654281134210" />
+    <state x="1118" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1654290290510">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1118" y="240" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080/1920.0.1858.1080@62.0.1858.1080" timestamp="1654290290510" />
   </component>
 </project>
