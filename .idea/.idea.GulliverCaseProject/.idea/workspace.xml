@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2966cff8-4390-443b-a0b1-88682f6bd73a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/ModifiedSnakeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/ModifiedSnakeScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Data/Enums.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Data/Enums.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/FoodGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/FoodGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/SnakeGameData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/SnakeGameData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UILayoutScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UILayoutScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Prefabs/TunelEnd.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Prefabs/TunelEnd.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +42,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/f3/dc4606e4/Vector2Int.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UIResChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D672EF0D-95B2-4490-89B8-789A939DFAD2/ba/8fe2facd/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D672EF0D-95B2-4490-89B8-789A939DFAD2/fe/895f6120/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BAD59441-8129-43C7-B8D5-A5BA85795810/af/c85b676d/Gizmos.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/62/0208ac2c/TweenSettingsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/Tunel.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,11 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/Node.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/States/IdleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/States/MovState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/3. UI Layout/UIResChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/Scripts/PickUpAnimator.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/6. Rolling Cube Animation/DiceRolling.cs" />
@@ -74,8 +71,16 @@
         <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/TunelEnd.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Installers/SnakeInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/MonoBehaviours/GameVisualizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/BezierCurve.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/ProgressBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBombData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +131,7 @@
       <workItem from="1654085079398" duration="3681000" />
       <workItem from="1654164032722" duration="2923000" />
       <workItem from="1654275694479" duration="15441000" />
+      <workItem from="1654371349007" duration="13616000" />
     </task>
     <servers />
   </component>

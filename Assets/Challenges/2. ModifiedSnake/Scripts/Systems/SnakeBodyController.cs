@@ -52,7 +52,7 @@ namespace Challenges._2._ModifiedSnake.Scripts.Systems
             _spawnedBlocks.Add(block);
             previousBlock.SetBehindBlock(block);
         }
-        
+
         private void ClearSnake()
         {
             foreach (var block in _spawnedBlocks)

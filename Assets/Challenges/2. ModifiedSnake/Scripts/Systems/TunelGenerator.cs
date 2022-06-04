@@ -18,18 +18,21 @@ public class TunelGenerator : ITunelGenerator, IGameSystem , ISnakeMovementListe
     private readonly TunelEnd.TunelEndBlockPull _tunelEndBlockPull;
     private readonly IMap _map;
     private readonly ISnakeBodyController _snakeBodyController;
+    private readonly SnakeHeadBlock _snakeHeadBlock;
     private readonly IOccupancyHandler _occupancyHandler;
     private CancellationTokenSource _cts;
     private bool _running = false;
     private Dictionary<Vector2Int,Tunel> _spawnedBlock;
     private Dictionary<Vector2Int,TunelEnd> _spawnedEndBlock;
+    private Vector2Int endBlockPosition;
     
-    public TunelGenerator(SnakeGameData snakeGameData,ISnakeBodyController snakeBodyController,Tunel.TunelBlockPull tunelBlockPull,TunelEnd.TunelEndBlockPull tunnelEndPull, IMap map,IOccupancyHandler occupancyHandler)
+    public TunelGenerator(SnakeGameData snakeGameData,ISnakeBodyController snakeBodyController, SnakeHeadBlock snakeHeadBlock,Tunel.TunelBlockPull tunelBlockPull,TunelEnd.TunelEndBlockPull tunnelEndPull, IMap map,IOccupancyHandler occupancyHandler)
     {
         _snakeGameData = snakeGameData;
         _snakeBodyController = snakeBodyController;
         _tunelBlockPull = tunelBlockPull;
         _tunelEndBlockPull = tunnelEndPull;
+        _snakeHeadBlock = snakeHeadBlock;
         _map = map;
         _occupancyHandler = occupancyHandler;
         _spawnedBlock = new Dictionary<Vector2Int,Tunel>();
@@ -75,6 +78,7 @@ public class TunelGenerator : ITunelGenerator, IGameSystem , ISnakeMovementListe
     {
         var randomEndPosition = _map.GetRandomCoordinate();
         SpawnTunnelEndIfPossible(randomEndPosition);
+        endBlockPosition = randomEndPosition;
         Debug.Log("Tunel End has been Spawned.........AAAAAAA.........");
     }
     
@@ -107,12 +111,8 @@ public class TunelGenerator : ITunelGenerator, IGameSystem , ISnakeMovementListe
         var blockExists = _spawnedBlock.ContainsKey(targetPosition);
         if (blockExists)
         {
-            var block = _spawnedBlock[targetPosition];
-            _tunelBlockPull.Despawn(block);
-            
-            
-           //_spawnedBlock.Remove(targetPosition);
-           //_snakeBodyController.AddBlock();
+            _snakeHeadBlock.SnakeTeleport(endBlockPosition);
+      
         }
     }
 

@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Collections;
+using TMPro;
 using UnityEngine;
 
 namespace Challenges._8._Complex_Loading_Bar.Scripts
@@ -36,16 +37,29 @@ namespace Challenges._8._Complex_Loading_Bar.Scripts
 
         #region Editable Area
 
-        public void SetThresholds(int[] thresholds)
+        private int[] th;
+        private int currentTh = 0;
+        private int nextTh = 1;
+
+        public void SetThresholds(int[] th)
         {
+            this.th = th;
+            previousThresholdText.text = th[currentTh].ToString();
+            nextThresholdText.text = th[nextTh].ToString();
         }
 
         public void ForceValue(int value)
         {
+            Debug.Log("Force Value is = " + value);
+            float progress = Mathf.InverseLerp(th[currentTh], th[nextTh], value);
+            basicProgressBar.SetTargetValue(progress);
         }
 
         public void SetTargetValue(int value, float? speedOverride = null)
         {
+            Debug.Log("Value of target set = " + value);
+            float progress = Mathf.InverseLerp(th[currentTh], th[nextTh], value);
+            basicProgressBar.SetTargetValue(progress);
         }
 
         #endregion

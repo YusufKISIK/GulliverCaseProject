@@ -105,10 +105,14 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
         private bool _isGrounded;
         private Vector3 _velocity;
         private float gravity;
+       
 
         [SerializeField]
         private LayerMask _rayLayer;
         private Vector3 _rayPoint;
+        private RaycastHit _slopeHit;
+        private float _groundRayDistance = 1;
+        
         
         //Add your states under this function
         private void SetupStateMachineStates()
@@ -143,12 +147,22 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
             _velocity = new Vector3(xzPlaneMovementVector.x, 0, xzPlaneMovementVector.y) ;
             transform.position += _velocity * Time.deltaTime;
 
-           
+            Slope();
             Grounded();
             Grav();
             ControlStates();
         }
-       
+
+         private async UniTaskVoid Slope()
+         {
+             Ray ray = new Ray(transform.TransformPoint(_rayPoint), Vector3.down);
+             RaycastHit hit;
+             if (OnSlope())
+             {
+                 Debug.Log("On slooooooooooooooooooooooooooooooooooooooooooooooooooooope");
+             }
+             
+         }
          private async UniTaskVoid Grounded()
          {
              Ray ray = new Ray(transform.TransformPoint(_rayPoint), Vector3.down);
@@ -186,6 +200,22 @@ namespace Challenges._1._GGStateMachineCharacterPhysics.Scripts.MonoBehaviours
                 if (_stateMachine.CheckCurrentState<MovState>()) return;
                 _stateMachine.SwitchToState<MovState>();
             }
+        }
+        
+           private bool OnSlope()
+        {
+            if(Physics.Raycast(transform.position, Vector3.down, out _slopeHit, 0.5f))
+            {
+                float angle = Vector3.Angle(Vector3.up, _slopeHit.normal);
+                return angle < 40f && angle != 0;
+            }
+
+            return false;
+        }
+
+           private Vector3 GetSlopeMoveDirection()
+        {
+              return Vector3.ProjectOnPlane(_velocity, _slopeHit.normal).normalized;
         }
         
         #endregion

@@ -15,6 +15,11 @@ namespace Challenges._2._ModifiedSnake.Scripts.Blocks
             BehindBlock = null;
         }
 
+        public void SnakeTeleport(Vector2Int position)
+        {
+            SetPosition(position);
+        }
+
       
     }
 }

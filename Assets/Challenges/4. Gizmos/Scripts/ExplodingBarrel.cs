@@ -9,9 +9,7 @@ namespace Challenges._5._Gizmos.Scripts
         [SerializeField]
         private ExplodingBarrelData explodingBarrelData;
         //Edit below
-
-        private GUIStyle texts;
-
+        
         private void OnDrawGizmos()
         {
             Gizmos.DrawWireSphere(transform.position, explodingBarrelData.ExplosionRadius);
