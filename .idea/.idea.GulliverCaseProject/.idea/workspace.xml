@@ -21,14 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2966cff8-4390-443b-a0b1-88682f6bd73a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GulliverCaseProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Prefabs/TunelEnd.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Prefabs/TunelEnd.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/AbstractDOTweenScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/5. Abstract DOTween/AbstractDOTweenScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/ChallengeExplanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/ChallengeExplanation.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +70,12 @@
         <option value="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/Scripts/LoopableProgressBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/SnakeBodyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Blocks/SnakeHeadBlock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBombData.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ExplodingBarrel.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/1. GGStateMachineCharacterPhysics/Scripts/MonoBehaviours/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Challenges/4. Gizmos/Scripts/ClusterBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/2. ModifiedSnake/Scripts/Systems/TunelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Challenges/8. Complex Loading Bar/ChallengeExplanation.txt" />
       </list>
     </option>
   </component>
@@ -131,7 +126,9 @@
       <workItem from="1654085079398" duration="3681000" />
       <workItem from="1654164032722" duration="2923000" />
       <workItem from="1654275694479" duration="15441000" />
-      <workItem from="1654371349007" duration="13616000" />
+      <workItem from="1654371349007" duration="13805000" />
+      <workItem from="1654386401529" duration="24000" />
+      <workItem from="1654446029915" duration="314000" />
     </task>
     <servers />
   </component>

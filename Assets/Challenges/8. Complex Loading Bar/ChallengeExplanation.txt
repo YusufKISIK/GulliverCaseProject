@@ -1,3 +1,6 @@
 
+I want to make system like after bar fill with 1, it will automatically clear itself and rest fo xp indicate the next level progress bar. If its going to pass 1, i will do the 
+same thing again untill its reaches to top of xp. To examplify, our xp bar values between 20-80 but xp rate is 130. Bar fill itself automatically but when it reach the 80, it will
+clear itself to 0 and after out PreviousTH and Next TH values will increase to next values of them and 50 xp point will add on it. This is my main goal to do that.
 
 If you don't do this challenge provide your explanation here
